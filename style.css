@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 4, 46);
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(156, 156, 255);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 65px;
+}
+
+.left {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.btn-2 {
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 5px 16px;
+
+}
+
+.btn {
+  background-color: white;
+  color: rgb(46, 46, 184);
+  border: 3px solid rgb(46, 46, 184);
+  border-radius: 8px;
+  padding: 5px 16px;
+}
+
+a:hover {
+  color: rgb(46, 46, 184);
+  transition: 0.5 ease-in-out;
+}
+
+.btn-2:hover {
+  border-color: rgb(46, 46, 184);
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.hero {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+h2{
+  font-size: 3.8rem;
+  margin-bottom: 0;
+}
+p{
+  font-size: 1.3rem;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.left-1 {
+  width: 300px;
+    }
+
+img {
+  width: 550px;
+  float: left;
+}
+span{
+  color:  rgb(156, 156, 255) ;
+  text-transform: capitalize;
+}
+ /* new section start */
+
+
+ .click{
+  margin-right: 20px;
+ }
+ a {
+  color: white;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.btn-3 {
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 5px 16px;
+  margin-right: -38;
+
+}
+
+.btn-4 {
+  background-color: white;
+  color: rgb(46, 46, 184);
+  border: 3px solid rgb(46, 46, 184);
+  border-radius: 8px;
+  padding: 5px 16px;
+}
+
+a:hover {
+  color: rgb(46, 46, 184);
+  transition: 0.5 ease-in-out;
+}
+
+.btn-3:hover {
+  border-color: rgb(46, 46, 184);
+  background-color: white;
+}
+
+.btn-4:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
