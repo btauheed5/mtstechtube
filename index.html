@@ -28,13 +28,10 @@
     <main>
         <section class="hero">
             <div class="left-1">
-                <h2>who am i</h2>
-                <p><span><b> muhammad tauseef siddiqui </b>.</span> i am web developer, Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Autem, optio. Repellat, rerum ea! Modi mollitia maiores quae quidem
-                    vero soluta?.</p>
-                <ul class="click">
-
-                </ul>
+               Hi, My Name is <br><span id="bolder">Muhammad Tauseef Siddiqui</span>
+                <div>& I'm a passionated</div>
+                <div><span class="bolder" id="element"></span></div>
+                
             </div>
             <div class="right-1">
                 <img src="pic.png" alt="">
@@ -127,6 +124,13 @@
                 rem nesciunt voluptate dolores facere debitis tempora ducimus omnis corporis, sapiente quibusdam!</p>
         </section>
     </main>
+       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Disigner.', 'Graphic Disigner.', 'Photographer.','Video Editor.','Web Devloper.','Content Writer.','UX Disigner.','Freelancer.'],
+          typeSpeed: 90,
+        });
+      </script>
 </body>
 
 </html>
