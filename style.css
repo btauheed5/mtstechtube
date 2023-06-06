@@ -47,9 +47,9 @@ a {
 }
 
 .btn {
-    background-color: white;
-    color: rgb(46, 46, 184);
-    border: 3px solid rgb(46, 46, 184);
+    background-color:rgb(255, 10, 10);
+    color: rgb(255, 255, 255);
+    border: 3px solid  rgb(255, 10, 10);
     border-radius: 8px;
     padding: 5px 16px;
 }
@@ -60,14 +60,17 @@ a:hover {
 }
 
 .btn-2:hover {
-    border-color: rgb(46, 46, 184);
+    border-color:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) ;
+    color: white;
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     
 }
 
 .btn:hover {
     background-color: transparent;
-    border-color: white;
-    color: white;
+    border-color:rgb(255, 10, 10);
+    color:rgb(255, 255, 255);
 }
 
 .hero {
