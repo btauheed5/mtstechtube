@@ -7,6 +7,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+    padding-top: 0%;
+    margin-top: 0%;
+    position: fixed;
+    top: 0px;
+}
+
 a {
 
     text-decoration: none;
@@ -15,6 +22,7 @@ a {
 nav {
     background-color: rgb(156, 156, 255);
     height: 70px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -47,9 +55,9 @@ a {
 }
 
 .btn {
-    background-color:rgb(255, 10, 10);
+    background-color: rgb(255, 10, 10);
     color: rgb(255, 255, 255);
-    border: 3px solid  rgb(255, 10, 10);
+    border: 3px solid rgb(255, 10, 10);
     border-radius: 8px;
     padding: 5px 16px;
 }
@@ -60,21 +68,19 @@ a:hover {
 }
 
 .btn-2:hover {
-    border-color:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) ;
     color: white;
-    background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    
+    background: linear-gradient(to top left,#285AEB, #d6249f, yellow 100%, #fd5949, #d6249f, #285AEB);
+
 }
 
 .btn:hover {
     background-color: transparent;
-    border-color:rgb(255, 10, 10);
-    color:rgb(255, 255, 255);
+    border-color: rgb(255, 10, 10);
+    color: rgb(255, 255, 255);
 }
 
 .hero {
-    margin-top: 85px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -173,23 +179,40 @@ hr {
     margin: 20px 60px;
     font-size: 1rem;
 }
-#element{
-font-weight: 1000;
-}
-#bolder{
-font-weight: 1000;
-}
-.copyright{
-    cursor: pointer;
-    color: rgb(46, 46, 184) ;
+
+#element {
     font-weight: 1000;
 }
-footer{
+
+#bolder {
+    font-weight: 1000;
+}
+
+.copyright {
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    padding-top: 6.5px;
+}
+
+footer {
     background-color: rgb(156, 156, 255);
     height: 40px;
 }
 
-footer p{
+footer p {
     align-items: center;
     justify-content: center;
+}
+#heart{
+    color: red;
+}
+#impo{
+color: rgb(46, 46, 184);
+font-weight: bolder ;
+}
+#impo:hover{
+    color: #d6249f;
 }
